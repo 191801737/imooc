@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<h1 align="center">注册信息</h1>
+		<hr color="#336699">
+		<form action="action.php" method="post">
+			<table width="600px" bgcolor="#f2f2f2" align="center">
+				<tr>
+					<td align="right">姓名:</td>
+					<td align="left"><input type="text" name="username" size="25" maxlength="6" value="" placeholder="请输入姓名"/></td>
+				</tr>
+
+				<tr>
+					<td align='right'>邮箱:</td>
+					<td align="left"><input type="text" name="mail" id="" value="163.com" /></td>
+				</tr>
+				<tr>
+					<td align='right'>密码:</td>
+					<td align="left"><input type="password" name="password" id="" value="" /></td>
+				</tr>
+				<tr>
+					<td align='right'>确认密码:</td>
+					<td align="left"><input type="password" name="password2" id="" value="" /></td>
+				</tr>
+				<tr>
+					<td align='right'>文件上传:</td>
+					<td align="left"><input type="file" name="file" id="" value="" /></td>
+				</tr>
+				<tr>
+					<td align='right'>性别:</td>
+					<td align="left">
+						男<input type="radio" name="sex" id="" value="man" />
+						女<input type="radio" name="sex" id="" value="female" />
+					</td>
+				</tr>
+				<tr>
+					<td align="right">爱好:</td>
+					<td align="left">
+						读书<input type="checkbox" name="multi_choice" id="" value="read" />
+						唱歌<input type="checkbox" name="multi_choice" id="" value="dance" />
+						跳舞<input type="checkbox" name="multi_choice" id="" value="sing" />
+						</td>
+				</tr>
+				<tr>
+					<td align="right">城市:</td>
+					<td align="left">
+						<select name="city">
+							<option value ="1">1</option>
+							<option value ="2">2</option>
+							<option value ="3">3</option>
+							<option value ="4">4</option>
+							<option value ="5">5</option>
+						</select>
+						
+						<select name="city" size="4" multiple="multiple">
+							<option value ="1">1</option>
+							<option value ="2">2</option>
+							<option value ="3">3</option>
+							<option value ="4">4</option>
+							<option value ="5">5</option>
+						</select>
+						
+						<select name="city">
+							<option value ="">--请选择--</option>
+							<optgroup label="华北">
+								<option value ="1" selected="selected">1</option>
+								<option value ="2">2</option>
+								<option value ="3">3</option>
+							</optgroup>
+							<optgroup label="华东">
+								<option value ="4">4</option>
+								<option value ="5">5</option>
+							</optgroup>							
+						</select>
+						
+						<select name="city" size="4" multiple="multiple">
+							<option value ="">--请选择--</option>
+							<optgroup label="华北">
+								<option value ="1" selected="selected">1</option>
+								<option value ="2">2</option>
+								<option value ="3">3</option>
+							</optgroup>
+							<optgroup label="华东">
+								<option value ="4">4</option>
+								<option value ="5">5</option>
+							</optgroup>							
+						</select>
+						
+					</td>
+				</tr>
+				<tr>
+					<td align="right">简介</td>
+					<td align="left">
+						<textarea rows="6" cols="50" placeholder="请输入个人介绍">
+							
+						</textarea>
+					</td>
+				</tr>
+				<tr>
+					<td align="center" colspan="2">
+						<input type="button" name="button" id="" value="来点我" />
+						<input type="submit" name="submit" id="" value="submit" />
+						<input type="reset" name="reset" id="" value="reset" />
+						<input type="image" name="image" id="" value="" src="../../img/input_image.png" />
+					</td>
+				</tr>
+				<tr>
+					<td><input type="hidden" name="hidden" id="" value="" /></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
